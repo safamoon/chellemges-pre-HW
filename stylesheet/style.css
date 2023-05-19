@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Open+Sans:ital,wght@0,300;0,800;1,500;1,800&family=Oxygen:wght@300;700&family=Raleway:ital,wght@0,300;0,500;0,800;1,500&family=Ubuntu:ital,wght@0,300;0,500;1,300;1,700&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+#chellenges_back{
+    width: 1000px;
+    height:700px;
+    margin: auto;
+    padding-top: 40px;
+    background-color: rgb(247, 228, 228);
+    display: flex;
+    align-items: center;
+    
+}
+.container{
+    width:900px;
+    padding: 20px;
+    margin: auto;
+    background-color: rgb(11, 1, 34); 
+}
+.row{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content:center;
+}
+.clock{
+    width: 200px;
+    background-color: rgb(106, 91, 193);
+    border: none;
+    border-radius: 10px;
+    display: block;
+    margin-right: 10px;
+}
+.clock h1{
+    font-family: 'Oxygen', sans-serif;
+    font-size: 25px;
+    margin-left: 20px;
+    color: white;
+    font-weight: 900;
+    padding-bottom: 30px;
+}
+.clock p{
+    margin-left: 20px;
+    color: white;
+    margin-top: 10px;
+    font-family: 'Oxygen', sans-serif;
+}
+.clock img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: 4px solid white;
+    margin:10px;
+}
+.card-first{
+    width: 200px;
+    padding: 40px;
+    background-color: rgb(21, 9, 97);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;  
+    margin-right: 10px;
+}
+.card-first p{
+    margin-left:8px;
+    display: inline-block;
+    color: rgb(148, 172, 244);
+    padding: 10px;
+    line-height: 40px;
+    font-family: 'Oxygen', sans-serif;
+}
+.card-first p span{
+    color: white;
+    font-weight: bolder;
+}
+
+
+.blog-card1{
+    width: 180px;
+    background-color: orangered;
+    border: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display:inline-block;
+    margin-right: 10px;
+}
+.blog-card2{
+    width: 180px;
+    background-color:  rgb(120, 198, 234);
+    border: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display:inline-block;
+    margin-right: 10px;
+}
+.blog-card3{
+    width: 180px;
+    background-color: rgba(209, 56, 97, 0.692);
+    border: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display:inline-block;
+    margin-right: 10px;
+}
+
+.blog-card1 span{
+    margin-left: 150px;
+    color: rgba(65, 29, 16, 0.92);
+    font-size: 25px;
+    transform: rotate(90deg);
+}
+
+.blog-card2 span{
+    margin-left: 150px;
+    color:  rgba(31, 69, 79, 0.658);
+    font-size: 25px;
+    transform: rotate(90deg);
+}
+.blog-card3 span{
+    margin-left: 150px;
+    color: rgba(226, 36, 86, 0.692);
+    font-size: 25px;
+    transform: rotate(90deg);
+
+}
+.card1{
+    width: 180px;
+    background-color: rgb(138, 214, 16);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display:inline-block;
+    margin-right: 10px;
+
+}
+.card2{
+    width: 180px;
+    background-color: rgb(61, 6, 67);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display:inline-block;
+    margin-right: 10px;
+
+}
+.card3{
+    width: 180px;
+    background-color: rgb(255, 213, 0);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display:inline-block;
+    margin-right: 10px;
+
+}
+.card1 span{
+    margin-left: 150px;
+    color:  rgb(28, 43, 4);
+    font-size: 25px;
+    display: inline-block;
+    transform:rotate('right 500');
+    font-family: 'Oxygen', sans-serif;
+    transform: rotate(90deg);
+}
+.card2 span{
+    margin-left: 150px;
+    color:  rgba(37, 15, 40, 0.685);
+    font-size: 25px;
+    display: inline-block;
+    transform:rotate('500');
+    font-family: 'Oxygen', sans-serif;
+    transform: rotate(90deg);
+}
+.card3 span{
+    margin-left: 150px;
+    color: rgb(99, 90, 13);
+    font-size: 25px;
+    font-family: 'Oxygen', sans-serif;
+    transform: rotate(80deg);
+}
+.child{
+    width: 180px;
+    background-color: rgb(18, 11, 101);
+    border-radius: 10px;
+    display:inline-block;
+    padding: 10px;
+
+
+
+}
+.child p{
+    margin-left: 20px;
+    color: white;
+    font-family: 'Oxygen', sans-serif;
+}
+.child h1{
+    margin-left: 20px;
+    color: white;
+    font-family: 'Oxygen', sans-serif;
+}
+.child h6{
+    margin-left: 20px;
+    color: white;
+    margin: 20px;
+    font-family: 'Oxygen', sans-serif;
+}
+.child h6 span{
+    margin-left: 80px;
+    color: white;
+    font-family: 'Oxygen', sans-serif;
+    
+}
+
+
+
+
+   
+
+
